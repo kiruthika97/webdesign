@@ -1,0 +1,91 @@
+#import url('https://fonts.googleapis.com/css?family-poppins:200,300,400,500,600,700,800,9008display=swap');
+a
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'poppins',sans-serif;
+}
+.banner
+{
+position:relative;
+max-hieght:500px;
+background-color:#000000;
+background-size:coverpage;
+background-position:right;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.banner h2
+{
+font-size:2cm;
+color:#fff;
+font-weight:200;
+line-hieght:1.5cm;
+}
+.banner h2 span
+{
+font-size:1cm;
+font-weight:500;
+}
+.banner h3
+{
+font-size:1cm;
+color:#fff;
+font-weight:500;
+line-hieght:1.5cm;
+}
+.btn
+{
+position:relative;
+background:#2196f3;
+display:inline-block;
+color:#fff;
+margin-top:20px;
+padding:10px 30px;
+font-size:18px;
+text-transform:uppercase;
+text-decaration:none;
+letter-spacing:2px;
+font-weight:500;
+}
+header
+{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:10px 2px;
+z-index:1000;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+header.logo
+{
+color:#fff;
+font-size:24px;
+text-transform:uppercase;
+text-decaration:none;
+font-weight:700;
+letter-spacing:1px;
+}
+header ul
+{
+position:relative;
+display:flex;
+}
+header ul li
+{
+position:relative;
+list-style:none;
+}
+header ul li a
+{
+position:relative;
+display:flex;
+margin:0 15px;
+color:#fff;
+text-decaration:none;
+}
